@@ -7,7 +7,7 @@
 const calculate = require('./calculate-back-end.js')
 
 
-
+console.log(process.argv[2])
 // For the following steps, write the code, like the example above, DIRECTLY
 // below the comment that describes it.
 
@@ -70,7 +70,7 @@ const num2 = process.argv[4]
 /*************************************************************
  * STEP 3 - FEED THE USER INPUTS INTO OUR CALCULATE FUNCTION *
  *************************************************************/
-calculate (num1, num2, operator)
+calculate (num1, num2 ,operator)
 const result = calculate(num1, num2, operator) 
 
 // Store the return value of our calculate function, making sure to feed it the correct values from our user input.
